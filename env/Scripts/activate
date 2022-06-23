@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\dell\todo-project\env"
+VIRTUAL_ENV="E:\leechen ho\KuliahKu\Semester 2\Bahasa Pemrograman\todo-project\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

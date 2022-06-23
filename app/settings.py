@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-(*zyu827&+9ycoiot0@hw-7+a+r3c6r)gw&@_@)#i30l2dglpx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'simplecruddjango.test'
+]
 
 
 # Application definition
@@ -37,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Aplikasi Todo
+    'todo.apps.TodoConfig'
 ]
 
 MIDDLEWARE = [
@@ -105,9 +110,11 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Jakarta'
 
 USE_I18N = True
+
+USE_L1ON = True
 
 USE_TZ = True
 
